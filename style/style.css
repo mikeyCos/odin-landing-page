@@ -57,7 +57,7 @@ html, body {
     color: #E5E7EB;
 }
 
-.button {
+.button-top {
     background-color: #3882F6;
     display: flex;
     justify-content: center;
@@ -113,8 +113,7 @@ html, body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     flex: 1;
     width: 150px;
 }
@@ -124,26 +123,29 @@ html, body {
 /* section three start */
 .section-three {
     background-color: #E5E7EB;
-    font-size: 36px;
     font-weight: italic;
     color: #1F2937;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     padding: 2em 2em;
 }
 
 .quote {
+    font-size: 36px;
+    font-style: italic;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-self: center;
     width: 50%;
 }
 
 .quote-person {
+    font-size: 24px;
+    font-weight: bolder;
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
 }
 
 /* section three end */
@@ -178,10 +180,13 @@ html, body {
     font-weight: bolder;
 }
 
-.button {
+.button-bottom {
     background-color: #3882F6;
     border-color: #E5E7EB;
     color: #E5E7EB;
+    width: 10%;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 /* section four end */
@@ -193,6 +198,7 @@ html, body {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding: 2em 2em;
 }
 
 /* footer end */
